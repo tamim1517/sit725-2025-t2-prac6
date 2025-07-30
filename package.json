@@ -1,0 +1,23 @@
+{
+  "name": "sit725-2025-t2-prac3",
+  "version": "1.0.0",
+  "description": "SIT725 Practice 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamim1517/sit725-2025-t2-prac3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamim1517/sit725-2025-t2-prac3/issues"
+  },
+  "homepage": "https://github.com/tamim1517/sit725-2025-t2-prac3#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
