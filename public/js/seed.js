@@ -9,15 +9,6 @@ mongoose.connect(process.env.MONGODB_URI, {
   useUnifiedTopology: true,
 });
 
-const ProjectSchema = new mongoose.Schema({
-  title: String,
-  image: String,
-  link: String,
-  description: String,
-});
-
-const Project = mongoose.model('Project', ProjectSchema);
-
 const sampleData = [
   {
     title: "Kitten 2",
@@ -32,6 +23,8 @@ const sampleData = [
     description: "Loves to nap in sunbeams",
   },
 ];
+
+const Project = require('../../models/projectModel');
 
 Project.insertMany(sampleData)
   .then(() => {
